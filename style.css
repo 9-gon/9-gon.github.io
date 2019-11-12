@@ -41,7 +41,7 @@
 		color: #eeeeee;
 		text-decoration: none;
 	}
-a	a:hover
+a	a:hover, a>*:hover
 	{
 		color: #c433c4;
 	}
