@@ -1,0 +1,54 @@
+@media screen
+{
+	* { box-sizing: border-box; } 
+	
+	body
+	{
+		background-color: #252525;
+		color: #eeeeee;
+		display: grid;
+		font-family: monospace;
+		grid-template-rows: 6rem 1fr;
+		left: 0;
+		margin: 0;
+		overflow: hidden;
+		position: absolute;
+		top: 0;
+	}
+	
+	header, section
+	{
+		padding: 8px;
+		max-width: 100vw;
+		min-width: 100vw;
+	}
+	
+	section
+	{
+		border-top: 1px solid #c433c4;
+		display: flex;
+		flex-direction: column;
+		overflow-y: auto;
+	}
+	
+	h1, h2
+	{
+		margin: 4px;
+	}
+	
+	h1 a
+	{
+		color: #eeeeee;
+		font-size: 2.2rem;
+		text-decoration: none;
+	}
+	h1 a:hover
+	{
+		color: #c433c4;
+	}
+	
+	h2
+	{
+		font-size: 1.5rem;
+	}
+}
